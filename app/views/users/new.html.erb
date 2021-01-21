@@ -1,5 +1,5 @@
 <!-- Classic html style form
-<form accept-charset="UTF-8" action="/users" method="post">
+<form accept-charset="UTF-8" action="users_path" method="post">
 	<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
 
 	<label for="username">Username</label>
@@ -31,23 +31,4 @@
 -->
 
 <!-- Form_for form -->
-<%= form_for @user do |f| %> 
-	<% if @user.errors.any? %>
-		<ul>
-			<% @user.errors.full_messages.each do |msg| %>
-				<li><%= msg %></li>
-			<% end %>
-		</ul>
-	<% end %>
-
-	<%= f.label :username %>
-	<%= f.text_field :username %><br>
-
-	<%= f.label :email %>
-	<%= f.text_field :email, placeholder: "example@example.com" %><br>
-
-	<%= f.label :password %>
-	<%= f.password_field :password %><br>
-
-	<%= f.submit "Submit" %>
-<% end %>
+<%= render "form" %>
