@@ -1,24 +1,42 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Re-former
 
-Things you may want to cover:
+> This project is about learning to create a form in Rails
 
-* Ruby version
+## Built With
 
-* System dependencies
+- Ruby
+- Rails
 
-* Configuration
+## Authors
 
-* Database creation
+👤 **Hillary Okello**
 
-* Database initialization
+- GitHub: [@githubhandle](https://github.com/HillaryOkello)
+- Twitter: [@twitterhandle](https://twitter.com/Kellyhillary4)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hillary-okello/)
 
-* How to run the test suite
+👤 **Mohammed Naqhid**
 
-* Services (job queues, cache servers, search engines, etc.)
+- GitHub: [@githubhandle](https://github.com/Naqhid)
 
-* Deployment instructions
+## 🤝 Contributing
 
-* ...
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Naqhid/re-former/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
